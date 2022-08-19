@@ -1,0 +1,53 @@
+
+        /* For desktop: */
+        .col-1 {width: 8.33%;}
+        .col-1-2 {width: 12.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-3-3 {width: 31%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-5-5 {width: 47.4%;}
+        .col-6 {width: 50%;}
+        .col-6-5 {width: 54.33%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+.img img{width: 150px; height: 130px;}
+.hnam h1{text-align: left;} 
+.hlinks{ text-align: right;}
+.hlinks li{display: inline; margin: 0 8px;}
+.hlinks li a{ font-size: 1.5rem; background-color: transparent;}
+.bgimg{background-image: url(background.jpg); background-position: center; background-attachment: fixed; background-size: cover; background-repeat: no-repeat; text-align: center; padding: 20% 15%;}
+.bgimg h1{font-size: 5rem; color: #e4fda0; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center;margin-top: 140px; animation-name: animat; animation-duration: 8s; animation-iteration-count: infinite; animation-fill-mode: forwards;  text-shadow: #ff2600 4px 5px 10px;}
+.bgimg h2{font-size: 3rem; color: #0f0299; font-family:cursive;text-align: center; margin-top:80px  ; font-weight: bolder; background-color: #7fffd470 ; margin-top: 150px;}
+.bgimg::after{content: ''; 
+        display: table;
+       clear:both;}
+h3{font-size: 4rem;}  
+.mdsc{height: 650px;}  
+.abt p{background-color:  #003535; border-radius: 40px; padding: 15px; font-size: 1.5rem; color:lightgreen; text-align: justify; margin: 10px;}   
+.mri h1{ font-size: 2.2rem;}
+.mri h2{font-size: 2rem;}
+.mri{height: 1000px;}
+.skill{height: 1000px;}
+.pcrd{height: 755px; overflow: auto;}
+
+.cntusi{ text-align: center; }
+.cnti{margin: 10px 30%;}
+.cntusi .btn{font-size: 4rem; margin: 10px; text-align: center; border: none; background-color: whitesmoke;  transition: font-size;transition-duration: 1s;}
+.cntusi .btn:hover{ background-color: #000130; border: 2px solid teal; font-size: 5rem;}
+
+.footer-menu{
+        margin-top: 12px;
+    }
+    
+    .footer-menu a {
+        display: inline;
+        margin: 10px;
+    
+    }

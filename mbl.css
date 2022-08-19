@@ -1,0 +1,179 @@
+*{box-sizing: border-box; }
+body{background-color: #a07dffa2;}
+
+
+
+
+
+
+header{background-color: #000020; padding: 10px;}
+.img{text-align: center; }
+.img img{ width: 200px; height: 180px; text-align:center;border-radius: 50%; animation-name: anim; animation-duration: 15s; animation-iteration-count: infinite; }
+.hnam h1{font-size: 2.5rem; color: aquamarine; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center; }
+.hlinks li{text-align: center; list-style: none; margin:20px 0; }
+.hlinks li a{font-size: 2rem;  color: lightcyan; text-decoration: none;  background-color: #003636; padding: 5px; border-radius: 20px;  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;} 
+.hlinks li a:hover{background-color: aqua; color: darkblue; cursor:pointer}
+[class*="col-"]{ float:left; padding: 20px ; margin: 0px;}
+[class*="col-"]{ width: 100%; padding: 20px ;}
+@keyframes anim{  
+    0%{ border: solid 8px orange ;}
+10%{ border: solid 7px #ffc04c;}
+20%{border: solid 7.5px #fffb00;}
+30%{ border:solid 7.5px #ff7707; }
+40%{ border:solid 7.5px #ff4800;}
+50%{ border:solid 7.5px #ff2600; }
+60%{border:solid 7.5px #ff4800;}
+70%{ border:solid 7.5px #ff7707; }
+80%{ border: solid 7.5px #fffb00;}
+90%{ border: solid 7.5px #ffc04c; }
+100%{ border: solid 7.5px orange;  }
+}
+.header::after{content: ''; 
+                 display: table;
+                clear:both ;}
+
+.bgimg{background-image: url(backgroundw.jpg); background-position: center; background-attachment: fixed; background-size: cover; background-repeat: no-repeat; text-align: center; padding: 10% 15%; border-radius: 30px;}
+.bgimg h1{font-size: 2.2rem; color: #e4fda0; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center; margin-top:700px ; animation-name: animat; animation-duration: 8s; animation-iteration-count: infinite; animation-fill-mode: forwards;  text-shadow: #ff2600 4px 5px 10px;border-radius: 30px;}
+.bgimg h2{font-size: 1.5rem; color: #a6a0fd; font-family:cursive;text-align: center; margin-top:80px  ; font-weight: bolder; border-radius: 30px;}
+@keyframes animat{  
+    0%{ color:  orange ;}
+10%{ color:  #ffc04c;}
+20%{color:  #fffb00;}
+30%{ color:#ff7707; }
+40%{ color:#ff4800;}
+50%{ color: #ff2600; }
+60%{color: #ff4800;}
+70%{ color: #ff7707; }
+80%{ color:  #fffb00;}
+90%{ color:  #ffc04c; }
+100%{ color:  orange;  }
+}
+.bgimg::after{ content: ''; 
+    display: table;
+   clear:both ;}
+h3{font-size: 2.4rem; color: #cdffac; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center;   text-shadow: #93f8ff 4px 5px 20px; background-color: #000029;border-radius: 30px;}
+h4{background-color: #00363644; color: #001d1f; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin: 0; font-size: 1rem;border-radius: 30px;}
+.abt p{background-color:  #003535; border-radius: 40px; padding: 15px; font-size: 1.3rem; color:lightgreen; text-align: justify; margin: 10px;}
+.mds h3{background-color: #143600; color: #c8f4ff;}
+.mdsc{background-color: coral; margin: 10px; padding: 20px; border: #000020 solid 5px; border-radius: 40px; animation-name:ani; animation-duration: 15s; animation-iteration-count: infinite;   }
+.mdsc:hover{box-shadow: #003135 10px 10px 30px 10PX;}
+.mdsc img{ width: 100%;}
+.mdsc a{ text-decoration: none; color: lightcyan; font-size: 1.7rem;}
+.mdsc a:hover{  color: #0f0063;}
+.mdsc h5 a{ background-color: lightcoral; color: #008f99; padding: 10px; text-align: center; font-family: 'Courier New', Courier, monospace; font-size: 2.5rem;}
+.mdsc h5{text-align: center;}
+.mdsc p{ font-size: 1.5rem; color: #143600; }
+@keyframes ani{  
+    0%{ border: solid 8px rgb(255, 208, 0) ;}
+10%{ border: solid 7px #f80000;}
+20%{border: solid 7.5px #ffc400;}
+30%{ border:solid 7.5px #eeff07; }
+40%{ border:solid 7.5px #15ff00;}
+50%{ border:solid 7.5px #00fff2; }
+60%{border:solid 7.5px #0004ff;}
+70%{ border:solid 7.5px #c507ff; }
+80%{ border: solid 7.5px #ff00d4;}
+90%{ border: solid 7.5px #ff0022; }
+100%{ border: solid 7.5px #ff0000;  }
+}
+.mdsc::after{content: ''; 
+               display: table;
+            clear: both;}
+.glass{color:transparent;}  
+.glass::selection{background-color: transparent;}          
+
+.skill{text-align: center; background-color: #001d1f; padding: 10px;  border-radius: 30px; margin: 10px;}   
+.skill h4{ font-size: 2rem; background-color: #00beb5; color: #000029;} 
+.skill li{list-style: none;  position: relative; border-radius: 70px; margin: 10px 10px;}
+
+h6{font-size: 2.2rem; color: #00fff2; font-family: 'Courier New', Courier, monospace;font-weight: bolder;}
+.skill li::before{ content: ''; background-color: lightcyan; position: absolute; top: calc(120%); left: 0; width: 100%; height: 100%; border-radius: 100px;}
+.skill li::after{ content: ''; background-color: #ecff46; position: absolute; top: calc(120%); left: 0; width: 0%; height: 100%; border-radius: 100px;
+                 animation-iteration-count: infinite; animation-duration: 5s; animation-delay: 2s; animation-fill-mode: forwards;}
+                 .skill li.html::after{animation-name:html;}
+                 .skill li.css::after{animation-name: css;}
+                 .skill li.js::after{animation-name: js;}
+                 .skill li.c::after{animation-name: c;}
+                 .skill li.vde::after{animation-name: vde;}
+                 .skill li.pheg::after{animation-name: peg;}
+
+                 @keyframes html{ to{width: 85% ; height: 100%; background: #ff2508;}}          
+                 @keyframes css{ to{width: 76% ; height: 100%; background: #ff3908;}}          
+                 @keyframes js{ to{width: 69% ; height: 100%; background: #ff6b08;}}          
+                 @keyframes c{ to{width: 59% ; height: 100%; background: #ffb108;}}          
+                 @keyframes vde{ to{width: 90% ; height: 100%; background: #ff2600;}}          
+                 @keyframes peg{ to{width: 88% ; height: 100%; background: #ff3908;}}     
+ .skill:hover{box-shadow: #1d0000 10px 10px 40px 10px;}      
+ .mri{text-align: center; background-color: #001d1f; padding: 10px;  border-radius: 30px; margin: 10px;} 
+ .mri h1{ color: cyan; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 1.8rem; text-transform: uppercase; margin: 40px 10px;} 
+ .mri h2  {color: cyan; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 1.5rem; overflow:auto;}    
+ .mri h1 a{ text-decoration: none; color: #97faf5;}
+ .mri h1 a:hover{ color: #0004ff;} 
+ .mri:hover{box-shadow: #1d0000 10px 10px 40px 10px;}
+ .mri::after{content: ''; 
+    display: table;
+ clear: both;}
+ .pcrd{background-color: #360036; padding: 10px; border-radius: 40px; margin: 10px;
+     animation-name: anim; animation-duration: 20s; animation-iteration-count: infinite;  }
+ .pcrd h1{color: #50ffad; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 2.2rem; text-transform: uppercase; margin: 40px 10px; text-align: center;}
+ .pcrd img{ width: 100%;}  
+ .pcrd p{color: #50ffad; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 1.86rem;  margin: 40px 10px; text-align: justify;}
+ .pcrd:hover{box-shadow: #000029 10px 10px 20px 10px;}
+
+ .pcrd::after{content: ''; 
+    display: table;
+ clear: both;}
+ .cntus h3{color: lightgreen; background-color:#002e2e ;}
+ .cntus{ background-color: #2bfff4 ; border-radius: 40px;}
+ .cntusf input{ width: 100%; height: 30px; border-radius: 30px; margin: 10px ; padding: 5px; font-size: 1.2rem; background-color: #d9ffbb; color: #050024; } 
+ .cntusf input:focus{background-color: #000029; color: #c1ffa4;} 
+ .cntusf textarea{resize: none; width: 100%; height: 300px; border-radius: 30px; margin: 10px ; padding: 5px; font-size: 1.2rem; background-color: #d9ffbb; color: #050024; }
+ .cntusf textarea:focus{background-color: #002922; color: #a4fff7;}
+ .cntusf button{ text-align: right; font-size: 2rem; color: #fcff4d; background-color: #001d1f; padding: 10px; margin: 10px; transition: font-size; transition-duration: 2s;}
+ .cntusf button:hover{background-color: #000020; color: #9bfffa; cursor: pointer; font-size: 2.6rem;}
+ .but{text-align: center;}
+ .cntusi{ text-align: center;}
+ .cntusi .btn{font-size: 3rem; margin: 10px; text-align: center; display: inline; border: none; background-color: whitesmoke;  transition: font-size;transition-duration: 2s;}
+ .cntusi .btn:hover{ background-color: #000130; border: 2px solid teal; font-size: 4rem;}
+
+
+
+
+ .cntus::after{content: ''; 
+    display: table;
+ clear: both;}
+
+
+
+
+
+ .footer{
+    background-color: #03001a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+
+}
+
+.footer-menu a{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin: 15px 0;
+    font-size: 1.7rem;
+    text-decoration: none;
+    color:  #009113;
+}
+
+.footer-menu a:hover{
+    color:#00fff2;
+}
+
+.footer::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+.footer-desc{font-size: 2rem; color: #c3fbff;}
+.footer-desc a{font-size: 2rem; color: #71f6ff; text-decoration: none;}
+.footer-desc a:hover{font-size: 2rem; color: #18009e; text-decoration: none;}
+
